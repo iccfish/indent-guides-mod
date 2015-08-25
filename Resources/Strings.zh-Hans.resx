@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Appearance" xml:space="preserve">
+    <value>外观</value>
+  </data>
+  <data name="btnCustomizeThisContentType" xml:space="preserve">
+    <value>自定义内容类型(&amp;C)</value>
+  </data>
+  <data name="btnThemeDelete" xml:space="preserve">
+    <value>删除(&amp;D)</value>
+  </data>
+  <data name="btnThemeReset" xml:space="preserve">
+    <value>重置(&amp;R)</value>
+  </data>
+  <data name="CaretAboveBelowEndsDisplayName" xml:space="preserve">
+    <value>当前行开始或结束</value>
+  </data>
+  <data name="CaretAboveBelowEndsDocumentation" xml:space="preserve">
+    <value>&lt;p style="font: message-box;"&gt;高亮当前行开始或结束的块标尺。&lt;/p&gt;&lt;p style="font: message-box;"&gt;这个样式在 HTML 和 XML 中效果较好。&lt;/p&gt;</value>
+  </data>
+  <data name="CaretAdjacentDisplayName" xml:space="preserve">
+    <value>相邻标尺</value>
+  </data>
+  <data name="CaretAdjacentDocumentation" xml:space="preserve">
+    <value>&lt;p style="font: message-box;"&gt;光标位置所在的标尺将会被高亮&lt;/p&gt;</value>
+  </data>
+  <data name="CaretFormatName" xml:space="preserve">
+    <value>高亮</value>
+  </data>
+  <data name="CaretNearestLeft2DisplayName" xml:space="preserve">
+    <value>当前行</value>
+  </data>
+  <data name="CaretNearestLeft2Documentation" xml:space="preserve">
+    <value>&lt;p style="font: message-box;"&gt;最接近当前行的标尺将会被高亮。&lt;/p&gt;&lt;p style="font: message-box;"&gt;这种模式在 C++ 或 C# 语言中表现较好&lt;/p&gt;</value>
+  </data>
+  <data name="CaretNearestLeftDisplayName" xml:space="preserve">
+    <value>当前块</value>
+  </data>
+  <data name="CaretNearestLeftDocumentation" xml:space="preserve">
+    <value>&lt;p style="font: message-box;"&gt;最靠近当前光标所在位置块的标尺将会被高亮。&lt;/p&gt;&lt;p style="font: message-box;"&gt;块是两行或更多行相邻的文本。&lt;/p&gt;&lt;p style="font: message-box;"&gt;这种风格对于 C++, C# 以及 Python 等语言表现较好。&lt;/p&gt;</value>
+  </data>
+  <data name="CaretNoneDisplayName" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="CaretNoneDocumentation" xml:space="preserve">
+    <value>&lt;p style="font: message-box;"&gt;标尺将不会高亮。&lt;/p&gt;</value>
+  </data>
+  <data name="ContentTypeDescription" xml:space="preserve">
+    <value>这些设置应用到的内容类型</value>
+  </data>
+  <data name="ContentTypeDisplayName" xml:space="preserve">
+    <value>内容类型</value>
+  </data>
+  <data name="DefaultFormatName" xml:space="preserve">
+    <value>默认</value>
+  </data>
+  <data name="DefaultThemeName" xml:space="preserve">
+    <value>(Default)</value>
+  </data>
+  <data name="ExtendInwardsOnlyDescription" xml:space="preserve">
+    <value>空行仅在标尺穿过它的时候显示标尺</value>
+  </data>
+  <data name="ExtendInwardsOnlyDisplayName" xml:space="preserve">
+    <value>空行仅当标尺穿过时才显示标尺</value>
+  </data>
+  <data name="grpLineMode" xml:space="preserve">
+    <value>显示模式</value>
+  </data>
+  <data name="grpLineStyle" xml:space="preserve">
+    <value>行样式</value>
+  </data>
+  <data name="HighlightColorDescription" xml:space="preserve">
+    <value>高亮颜色</value>
+  </data>
+  <data name="HighlightColorDisplayName" xml:space="preserve">
+    <value>高亮颜色</value>
+  </data>
+  <data name="HighlightStyleDescription" xml:space="preserve">
+    <value>高亮样式</value>
+  </data>
+  <data name="HighlightStyleDisplayName" xml:space="preserve">
+    <value>高亮样式</value>
+  </data>
+  <data name="lblContentType" xml:space="preserve">
+    <value>内容类型:</value>
+  </data>
+  <data name="LineColorDescription" xml:space="preserve">
+    <value>标尺颜色</value>
+  </data>
+  <data name="LineColorDisplayName" xml:space="preserve">
+    <value>标尺颜色</value>
+  </data>
+  <data name="LineStyle_Dashed" xml:space="preserve">
+    <value>虚线</value>
+  </data>
+  <data name="LineStyle_DashedGlow" xml:space="preserve">
+    <value>虚线 (发光)</value>
+  </data>
+  <data name="LineStyle_DashedThick" xml:space="preserve">
+    <value>虚线 (宽)</value>
+  </data>
+  <data name="LineStyle_Dotted" xml:space="preserve">
+    <value>点线</value>
+  </data>
+  <data name="LineStyle_DottedGlow" xml:space="preserve">
+    <value>点线 (发光)</value>
+  </data>
+  <data name="LineStyle_DottedThick" xml:space="preserve">
+    <value>点线 (宽)</value>
+  </data>
+  <data name="LineStyle_Glow" xml:space="preserve">
+    <value>实线 (发光)</value>
+  </data>
+  <data name="LineStyle_Solid" xml:space="preserve">
+    <value>实线</value>
+  </data>
+  <data name="LineStyle_Thick" xml:space="preserve">
+    <value>实线 (宽)</value>
+  </data>
+  <data name="LineStyleDescription" xml:space="preserve">
+    <value>标尺显示样式</value>
+  </data>
+  <data name="LineStyleDisplayName" xml:space="preserve">
+    <value>标尺样式</value>
+  </data>
+  <data name="lstModePreset_Custom" xml:space="preserve">
+    <value>(自定义)</value>
+  </data>
+  <data name="VisibleUnalignedDisplayName" xml:space="preserve">
+    <value>显示未对齐的缩进</value>
+  </data>
+  <data name="VisibleUnalignedDescription" xml:space="preserve">
+    <value>为所有缩进的文本显示标尺而不管缩进大小设置</value>
+  </data>
+  <data name="VisibleEmptyDisplayName" xml:space="preserve">
+    <value>空行上也显示标尺</value>
+  </data>
+  <data name="VisibleEmptyDescription" xml:space="preserve">
+    <value>如果空行之前的行显示了标尺，那么在空行上显示同样的标尺。</value>
+  </data>
+  <data name="VisibleEmptyAtEndDisplayName" xml:space="preserve">
+    <value>空行末尾显示标尺</value>
+  </data>
+  <data name="VisibleAtTextEndDisplayName" xml:space="preserve">
+    <value>文字上显示</value>
+  </data>
+  <data name="VisibleAtTextEndDescription" xml:space="preserve">
+    <value>将标尺调整到文字上</value>
+  </data>
+  <data name="UnalignedFormatName" xml:space="preserve">
+    <value>未对齐</value>
+  </data>
+  <data name="UnalignedThemeName" xml:space="preserve">
+    <value>未对齐</value>
+  </data>
+  <data name="UnknownContentType" xml:space="preserve">
+    <value>不可用</value>
+  </data>
+  <data name="VisibilityDescription" xml:space="preserve">
+    <value>在所有文本编辑器上都显示标尺</value>
+  </data>
+  <data name="VisibleEmptyAtEndDescription" xml:space="preserve">
+    <value>如果当前空行的上一行的标尺显示在文字上，那么在空行上也显示标尺</value>
+  </data>
+  <data name="VisibleAlignedDescription" xml:space="preserve">
+    <value>所有的缩进级别上均显示标尺，无论是否挨着文字</value>
+  </data>
+  <data name="VisibleAlignedDisplayName" xml:space="preserve">
+    <value>为所有缩进级别显示标尺</value>
+  </data>
+  <data name="tooltipNextRelease" xml:space="preserve">
+    <value>计划中</value>
+  </data>
+  <data name="tooltipCustomizeThisContentType" xml:space="preserve">
+    <value>自定义内容类型</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>缩进标尺</value>
+  </data>
+  <data name="tabPageQuick" xml:space="preserve">
+    <value>快速设置</value>
+  </data>
+  <data name="PageWidthPositionDisplayName" xml:space="preserve">
+    <value>列</value>
+  </data>
+  <data name="lstModePreset_Minimal" xml:space="preserve">
+    <value>仅对齐的文本</value>
+  </data>
+  <data name="lstModePreset_TextDown" xml:space="preserve">
+    <value>文字以及之下</value>
+  </data>
+  <data name="lstModePreset_TextUp" xml:space="preserve">
+    <value>文字以及之上</value>
+  </data>
+  <data name="NoDocumentationHtml" xml:space="preserve">
+    <value>&lt;p style="font: message-box;"&gt;(没有文档)&lt;/p&gt;</value>
+  </data>
+  <data name="PageWidthExists" xml:space="preserve">
+    <value>对应列上已有页宽标记</value>
+  </data>
+  <data name="PageWidthPositionDescription" xml:space="preserve">
+    <value>显示页宽标记的位置</value>
+  </data>
+  <data name="lstModePreset_IndentsDown" xml:space="preserve">
+    <value>缩进位置(默认)</value>
+  </data>
+  <data name="lstModePreset_IndentsUp" xml:space="preserve">
+    <value>缩进位置(反转)</value>
+  </data>
+  <data name="IndentGuidePackage" xml:space="preserve">
+    <value>Indent Guides Package</value>
+  </data>
+  <data name="VisibleDisabledDesc" xml:space="preserve">
+    <value>此内容格式上禁用缩进指示</value>
+  </data>
+  <data name="VisibleDisabledName" xml:space="preserve">
+    <value>禁用</value>
+  </data>
+</root>
