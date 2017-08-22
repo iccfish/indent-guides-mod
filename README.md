@@ -30,12 +30,13 @@ I need to disable indent guides on some file types (such as csharp) due to some 
 
 ## Install / 安装
 
-Install this version directly via [visual studio gallery](https://visualstudiogallery.msdn.microsoft.com/f6391b7c-0858-4e0f-bf9c-f7a70da71b4b).
+VS2013/2015：Install this version directly via [visual studio gallery](https://visualstudiogallery.msdn.microsoft.com/f6391b7c-0858-4e0f-bf9c-f7a70da71b4b).
+Read this [blog post](http://blog.fishlee.net/2015/08/25/release_vsext_indent_guides_chs/) for more information.
+VS2017：Install this version directly via [visual studio gallery](https://visualstudiogallery.msdn.microsoft.com/9b3a7aa0-d440-4955-94b1-8107185f0562?redir=0).
 Read this [blog post](http://blog.fishlee.net/2015/08/25/release_vsext_indent_guides_chs/) for more information.
 
-直接在[VS扩展库](https://visualstudiogallery.msdn.microsoft.com/f6391b7c-0858-4e0f-bf9c-f7a70da71b4b)中安装即可.
-阅读[这篇博客](http://blog.fishlee.net/2015/08/25/release_vsext_indent_guides_chs/)获得更多信息。
-
+VS2013/2015：直接在[VS扩展库](https://visualstudiogallery.msdn.microsoft.com/f6391b7c-0858-4e0f-bf9c-f7a70da71b4b)中安装即可.阅读[这篇博客](http://blog.fishlee.net/2015/08/25/release_vsext_indent_guides_chs/)获得更多信息。
+VS2017：直接在[VS扩展库](visual studio gallery](https://visualstudiogallery.msdn.microsoft.com/9b3a7aa0-d440-4955-94b1-8107185f0562)中安装即可.
 
 
 [Steve Dower]: https://visualstudiogallery.msdn.microsoft.com/site/search?f%5B0%5D.Type=User&f%5B0%5D.Value=Zooba
