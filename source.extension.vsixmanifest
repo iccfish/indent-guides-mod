@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Publisher="Steve Dower; iFish(木鱼)" Version="15.0.0.0" Id="IndentGuide.SteveDower.mod.by.ifish.9D1473D3-D424-44F8-980C-E28BC8A594D9.2017" Language="zh-CN" />
-        <DisplayName>Indent Guides</DisplayName>
-        <Description xml:space="preserve">Adds vertical lines at each indent level.</Description>
-        <MoreInfo>http://visualstudiogallery.msdn.microsoft.com/e792686d-542b-474a-8c55-630980e72c30</MoreInfo>
+        <Identity Publisher="Steve Dower; iFish(木鱼)" Version="15.0.0.1" Id="IndentGuide.SteveDower.mod.by.ifish.9D1473D3-D424-44F8-980C-E28BC8A594D9.2017" Language="zh-CN" />
+        <DisplayName>Indent Guides (中文修改版)</DisplayName>
+        <Description xml:space="preserve">Adds vertical lines at each indent level.
+这是中文版，并且添加了针对语言禁用的功能。</Description>
+        <MoreInfo>https://github.com/iccfish/indent-guides-mod</MoreInfo>
         <License>Resources\Licence.txt</License>
         <Icon>Resources\embed_icon.png</Icon>
         <PreviewImage>Resources\embed_screen.png</PreviewImage>
