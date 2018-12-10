@@ -25,7 +25,10 @@ using Microsoft.VisualStudio.Shell.Interop;
 
 namespace IndentGuide
 {
-	[PackageRegistration(UseManagedResourcesOnly = true)]
+	using System.Threading;
+	using System.Threading.Tasks;
+
+	[PackageRegistration(UseManagedResourcesOnly = true, AllowsBackgroundLoading = true)]
 	[InstalledProductRegistration("#110", "#112", "15", IconResourceID = 400)]
 	[ProvideMenuResource("Menus.ctmenu", 1)]
 	[ProvideOptionPage(typeof(DisplayOptions), "IndentGuide", "显示", 110, 120, false)]
@@ -37,7 +40,7 @@ namespace IndentGuide
 	[ProvideService(typeof(SIndentGuide))]
 	[ResourceDescription("IndentGuidePackage")]
 	[Guid(Guids.IndentGuidePackageGuid)]
-	public sealed class IndentGuidePackage : Package
+	public sealed class IndentGuidePackage : AsyncPackage
 	{
 		private static readonly Guid guidIndentGuideCmdSet = Guid.Parse(Guids.IndentGuideCmdSetGuid);
 		private const int cmdidViewIndentGuides = 0x0103;
@@ -46,9 +49,9 @@ namespace IndentGuide
 		private IndentGuideService Service;
 		private bool CommandVisible;
 
-		protected override void Initialize()
+		protected async override Task InitializeAsync(CancellationToken cancellationToken, IProgress<ServiceProgressData> progress)
 		{
-			base.Initialize();
+			await base.InitializeAsync(cancellationToken, progress);
 
 			// Prepare event
 			var dte = GetService(typeof(EnvDTE.DTE)) as EnvDTE.DTE;
@@ -73,7 +76,7 @@ namespace IndentGuide
 			}
 
 			Service = new IndentGuideService(this);
-			((IServiceContainer)this).AddService(typeof(SIndentGuide), Service, true);
+			AddService(typeof(SIndentGuide), async (container, ct, type) => Service, true);
 			Service.Upgrade();
 			Service.Load();
 		}
